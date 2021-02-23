@@ -47,3 +47,10 @@ body {
   color: #6E707D;
   text-align: center;
 }
+
+/*** Responsive ***/
+@media(max-width: 800px) {
+  #root {
+    width: 80%;
+  }  
+}
