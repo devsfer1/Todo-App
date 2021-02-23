@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
 
 body {
   background-color: #34303E;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -13,5 +16,19 @@ body {
   height: 100vh;
   background-color: #1E1A22;
   margin: 0 auto;
-  border-radius: 20px;
+  border-radius: 25px;
+  padding: 35px 20px;
+}
+
+.title {
+  color: #E3E3E4;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 0 40px 0;
+}
+
+.subtitle {
+  color: #E3E3E4;
+  text-align: center;
+  font-size: 24px;  
 }

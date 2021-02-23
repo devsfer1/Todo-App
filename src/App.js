@@ -1,11 +1,10 @@
 import { useState } from 'react'
+import Home from './components/Home'
 
 function App() {
   return (
     <div className="container">
-      <header className="App-header">
-    
-      </header>
+      <Home />
     </div>
   );
 }
