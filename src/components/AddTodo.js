@@ -8,9 +8,12 @@ function AddTodo({ onAdd }) {
 
     if(!text) {
       alert('Please enter a valid Todo');
+      return
     } 
     
     onAdd({text});
+    alert('Todo Added Successfully!');
+    setText('');
   }
 
   return (
