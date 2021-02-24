@@ -2,6 +2,7 @@ import { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 import Home from './components/Home';
 import Button from './components/Button';
+import ShowAddTask from './components/ShowAddTask';
 
 function App() {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -12,13 +13,13 @@ function App() {
 
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-      <div className="container">
+      <div className="container" >
         <Home />
         <Button title="+" onHandleClick={handleClick} />
       </div>
       <div className="container">
-
-        <Button title="Add New Task" onHandleClick={handleClick} /> 
+        <ShowAddTask />
+        <Button title="x" onHandleClick={handleClick} /> 
       </div>
     </ReactCardFlip>
   );
