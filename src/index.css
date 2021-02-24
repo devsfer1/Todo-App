@@ -91,6 +91,34 @@ body {
 
 .form-item {
   margin: 0 0 20px 0;
+  display: block;
+  width: 80%;
+}
+
+.form-input {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2e2933;
+  color: #E3E3E4;
+  width: 100%;
+}
+
+.form-input:focus {
+  outline: none;
+  border: solid 1px #393340; 
+}
+
+.form-btn {
+  display: block;  
+  width: 80%;
+  padding: 15px 0;
+  cursor: pointer;
+  background-color: #9734FC;
+  color: #e8e8e8;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
 }
 
 /*** Responsive ***/
