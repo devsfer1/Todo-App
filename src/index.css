@@ -68,8 +68,20 @@ body {
   transition: ease 0.2s;
 }
 
-.btn:hover {
+.btn-front {
+  background: #992AF7;  
+}
+
+.btn-front:hover {
   background: #8b11f2;  
+}
+
+.btn-back {
+  background: #f70a2a;
+}
+
+.btn-back:hover {
+  background: #db0421;
 }
 
 .add-form {
