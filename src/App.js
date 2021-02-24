@@ -6,7 +6,7 @@ import AddTodo from './components/AddTodo';
 import Todos from './components/Todos';
 
 function App() {
-  const [todos, setTodos] = useState([{}])
+  const [todos, setTodos] = useState([])
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = () => {
@@ -31,7 +31,7 @@ function App() {
       <div className="container" >
         <Home />
         <div className="todo-container">
-          {todos.length > 0 ? <Todos todos={todos} onDelete={deleteTodo}/> : 'No Todos Added Yet.'}
+          {todos.length > 0 ? <Todos todos={todos} onDelete={deleteTodo}/> : ''}
         </div>
         <Button title="+" btnClass="btn btn-front" onHandleClick={handleClick} />
       </div>

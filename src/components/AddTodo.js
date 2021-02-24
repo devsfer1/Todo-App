@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function AddTodo({ onAdd }) {
+const AddTodo = ({ onAdd }) => {
   const [text, setText] = useState('');
 
   const onSubmit = (e) => {

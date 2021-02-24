@@ -1,4 +1,4 @@
-function Home() {
+const Home = () => {
   return (
     <>
       <h1 className='title'>Todo List App</h1>
