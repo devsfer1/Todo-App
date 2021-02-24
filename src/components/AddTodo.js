@@ -12,7 +12,7 @@ const AddTodo = ({ onAdd }) => {
     } 
     
     onAdd({text});
-    alert('Todo Added Successfully!');
+    alert('Todo Added Successfully !');
     setText('');
   }
 

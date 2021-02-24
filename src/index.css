@@ -171,11 +171,49 @@ body {
   border: none;
   border-radius: 6px;
   font-size: 16px;
+  transition: ease 0.2s;
+}
+
+.form-btn:focus {
+  outline: none;
+}
+
+.form-btn:hover {
+  background-color: #8b11f2;   
 }
 
 /*** Responsive ***/
-@media(max-width: 800px) {
+@media(max-width: 1200px) {
   #root {
     width: 80%;
   }  
+}
+
+@media(max-width:600px) {
+  #root {
+    width: 90%;
+  }
+
+  .title {
+    font-size: 26px;
+    margin: 0 0 50px 0;
+  }
+
+  .subtitle,
+  .form-title {
+    font-size: 20px;
+  }
+
+  .form-item {
+    width: 90%;
+  }
+
+  .form-input {
+    padding: 15px 30px;
+  }
+
+  .form-btn {
+    padding: 12px 0;
+    width: 90%;
+  }
 }
