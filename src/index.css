@@ -49,6 +49,22 @@ body {
 .paragraph {
   color: #6E707D;
   text-align: center;
+  margin: 0 0 40px 0; 
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-container {
+  height: calc(100% - 20px);
+    overflow-y: auto;
+}
+
+.todo-item {
+  border-bottom: solid 1px #6E707D;
+  padding: 10px 0;
 }
 
 .btn {

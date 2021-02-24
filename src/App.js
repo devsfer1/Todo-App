@@ -2,7 +2,8 @@ import { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 import Home from './components/Home';
 import Button from './components/Button';
-import ShowAddTask from './components/ShowAddTask';
+import AddTodo from './components/AddTodo';
+import Todo from './components/Todo';
 
 function App() {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -14,11 +15,14 @@ function App() {
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <div className="container" >
-        <Home />
+        <Home>
+          
+        </Home>
+        <Todo />
         <Button title="+" btnClass="btn btn-front" onHandleClick={handleClick} />
       </div>
       <div className="container">
-        <ShowAddTask />
+        <AddTodo />
         <Button title="x" btnClass="btn btn-back" onHandleClick={handleClick} /> 
       </div>
     </ReactCardFlip>
