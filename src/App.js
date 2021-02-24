@@ -15,10 +15,10 @@ function App() {
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <div className="container" >
-        <Home>
-          
-        </Home>
-        <Todo />
+        <Home />
+        <div className="todo-container">
+          <Todo />
+        </div>
         <Button title="+" btnClass="btn btn-front" onHandleClick={handleClick} />
       </div>
       <div className="container">

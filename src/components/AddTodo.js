@@ -13,7 +13,6 @@ function AddTodo({ onAdd }) {
     onAdd({text});
   }
 
-
   return (
     <form className="add-form" onSubmit={onSubmit}>
       <div className="form-item">
