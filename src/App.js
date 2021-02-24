@@ -14,11 +14,11 @@ function App() {
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <div className="container">
         <Home />
-        <Button onHandleClick={handleClick}>Click me</Button>
+        <Button title="+" onHandleClick={handleClick} />
       </div>
       <div className="container">
 
-        <Button onHandleClick={handleClick}>Click Me</Button>
+        <Button title="Add New Task" onHandleClick={handleClick} /> 
       </div>
     </ReactCardFlip>
   );

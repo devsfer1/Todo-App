@@ -1,7 +1,7 @@
 
-const Button = ({ onHandleClick }) => {
+const Button = ({ title, onHandleClick }) => {
   return (
-    <button onClick={onHandleClick}>Click Me</button>
+    <button className="btn" onClick={onHandleClick}>{title}</button>
   )
 }
 

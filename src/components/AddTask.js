@@ -1,8 +1,13 @@
 const AddTask = () => {
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+  }
+
   return (
-    <div>
+    <form className="add-form">
       
-    </div>
+    </form>
   )
 }
 

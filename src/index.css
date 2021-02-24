@@ -27,6 +27,9 @@ body {
   margin: 0 auto;
   border-radius: 25px;
   padding: 35px 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 50%);
 }
 
 .title {
@@ -46,6 +49,27 @@ body {
 .paragraph {
   color: #6E707D;
   text-align: center;
+}
+
+.btn {
+  position: fixed;
+  bottom: 5%;
+  left: 45%;
+  right: 50%;
+  margin: 0 auto;
+  background: #992AF7;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  border-radius: 100%;
+  font-size: 18px;
+  cursor: pointer;
+  transition: ease 0.2s;
+}
+
+.btn:hover {
+  background: #8b11f2;  
 }
 
 /*** Responsive ***/
